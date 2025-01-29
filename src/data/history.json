@@ -1,0 +1,27 @@
+[
+    {
+        "role": "Patient Services Team Member",
+        "organisation": "Qi Integrated Health",
+        "startDate": "November 2024",
+        "endDate": "Febuary 20th",
+        "experiences": ["Provided administrative and patient support in a healthcare setting, managing clinic operations, and patient interactions using Jane software."],
+        "imageScr": "history/QiLogo2.png"
+    },
+    {
+        "role": "Back of House Team Member/Chef",
+        "organisation": "Pablo EggsGoBao",
+        "startDate": "May 2023",
+        "endDate": "July 2024",
+        "experiences": ["Managed incoming orders, prepared food, monitored stock, and guided new team memvers in a high-pressure, fast-paced environment."],
+        "imageScr": "history/pablo.png"
+    },
+    {
+        "role": "Waiter",
+        "organisation": "Your Chef Ltd.",
+        "startDate": "Augest 2019",
+        "endDate": "September 2020",
+        "experiences": ["Provided high-quality service by effectively communicating with guests and team members. Assisted in various tasks including serving, food preparation, and maintaining cleanliness."],
+        "imageScr": "history/yourChef1.png"
+    }
+
+]

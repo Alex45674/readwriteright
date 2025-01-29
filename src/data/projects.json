@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Read Write Right:",
+        "imageSrc": "projects/RWR.png",
+        "description": "A web application focused on integrating current dyslexia support technicques into one application.",
+        "skills": ["Flask", "Javascript", "HTML/CSS"],
+        "demo": "https://www.example.com",
+        "source": "https://www.github.com"
+    },
+    {
+        "title": "Protfolio Website:",
+        "imageSrc": "projects/Pweb.png",
+        "description": "A simple react web application to provide information of my background and showcase my technical abilities.",
+        "skills": ["React", "jsx", "CSS"],
+        "demo": "https://www.example.com",
+        "source": "https://www.github.com"
+    },
+    {
+        "title": "Lottery Web App:",
+        "imageSrc": "projects/Lweb.png",
+        "description": "A university projects that shows my capeabilties to work with databases, user login, and specifying access.",
+        "skills": ["HTML/CSS", "Flask","Python"],
+        "demo": "https://www.example.com",
+        "source": "https://www.github.com"
+    }
+]
