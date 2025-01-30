@@ -29,6 +29,7 @@
     height: auto;
     padding: 15px;
     height: 100%;
+    z-index: 1;
     position: relative;
 }
 
@@ -52,7 +53,8 @@
     margin-top: 20px;
     font-size: 25px;
     font-weight: 700;
-    z-index: 20;
+    z-index: 1;
+    position: relative;
 }
 
 .description {
