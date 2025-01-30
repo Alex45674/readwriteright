@@ -10,11 +10,12 @@
 
 .title {
     color: var(--color-text);
-    z-index: 1;
+    z-index: 5;
     font-size: 40px;
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase;
+    position: relative;
 }
 
 .content {
@@ -276,7 +277,7 @@
         border-radius: 70px;
         background: rgba(49, 82, 189, 0.7);
         filter: blur(100px);
-        z-index: 0;
+        z-index: -1;
     }
 
 }

@@ -35,6 +35,8 @@
     );
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    z-index: 1;
+    position: relative;
 }
 
 .description {
