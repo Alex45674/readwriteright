@@ -11,7 +11,7 @@
 .title {
     color: var(--color-text);
     z-index: 5;
-    font-size: 40px;
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -148,7 +148,7 @@
 
 
 .historyItem img {
-    width: 150px;
+    width: 15vw;
     padding-left: 16px;
     transition: transform 0.4s ease, z-index 0s linear;
     z-index: 1;
@@ -166,16 +166,17 @@
 
 .historyItemDetails {
     font-family: var(--font-roboto);
+    font-size: clamp(1rem, 2vw, 1.5rem);
 }
 
 .historyItemDetails h3 {
-    font-size: 25px;
+    font-size: clamp(1rem, 2vw, 1.5rem);
     font-weight: 500;
 
 }
 
 .historyItemDetails p {
-    font-size: 20px;
+    font-size: clamp(0.9rem, 1.8vw, 1.2rem);
     font-weight: 300;
 
 }
@@ -184,7 +185,7 @@
 .historyItemDetails ul {
     margin-top: 6px;
     list-style-position: inside;
-    font-size: 20px;
+    font-size: clamp(0.9rem, 1.8vw, 1.2rem);
     list-style-type: disc;
 
 }
@@ -253,31 +254,11 @@
     }
 
     .bottomBlur {
-        position: absolute;
-        width: 100vw;
-        height: 73svw;
-        min-width: 350px;
-        min-width: 350px;
-        top: 1950px;
-        left: auto;
-        border-radius: 70px;
-        background: rgba(49, 82, 189, 0.7);
-        filter: blur(100px);
-        z-index: 0;
+        display: none;
     }
     
     .topBlur {
-        position: absolute;
-        width: 100vw;
-        height: 73svw;
-        min-width: 350px;
-        min-width: 350px;
-        top: 2100px;
-        right: auto;
-        border-radius: 70px;
-        background: rgba(49, 82, 189, 0.7);
-        filter: blur(100px);
-        z-index: -1;
+        display: none;
     }
 
 }

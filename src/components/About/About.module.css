@@ -3,29 +3,32 @@
 .container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     z-index: 1;
 }
 
 .container2 {
     position: relative;
     background-color: rgba(29, 29, 29, 0.9);
-    box-shadow: -8px 8px 8px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
-    padding: 30px;
-    margin-top: 45px;
+    box-shadow: -0.5vw 0.5vw 0.5vw rgba(0, 0, 0, 0.25);
+    border-radius: 2vw;
+    padding: 2vw;
+    margin-top: 3vw;
     z-index: 2;
     margin-left: 5%;
     width: 50%;
+    max-width: 900px;
+    min-width: 300;
 }
 
 .title {
     color: var(--color-text);
     margin: 0 5%;
-    font-size: 40px;
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
     font-weight: 700;
-    letter-spacing: 1px;
+    letter-spacing: 0.1;
     text-transform: uppercase;
-    z-index: 1;
+    z-index: 2;
     position: relative;
 }
 
@@ -38,15 +41,12 @@
 
 .aboutImage {
     width: 30%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    z-index: 1;
+    padding: 1vw;
+    z-index: 2;
     margin: auto;
-    border-radius: 40px;
+    border-radius: 2vw;
     background-color: rgba(29, 29, 29, 0.9);
-    box-shadow: -8px 8px 8px rgba(0, 0, 0, 0.25);
+    box-shadow: -0.5vw 0.5vw 0.5vw rgba(0, 0, 0, 0.25);
     
 }
 
@@ -54,16 +54,16 @@
     color: var(--color-text);
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 2vw;
 }
 
 .aboutItem {
     display: flex;
     flex-direction: row;
     align-items: center;
-    border-radius: 20px;
+    border-radius: 2vw;
     list-style: none;
-    padding: 25px;
+    padding: 2vw;
     background-image: linear-gradient(
         90deg,
         rgba(165, 215, 232, 0.42) 0%,
@@ -79,25 +79,22 @@
 }
 
 .aboutItem h3 {
-    font-size: 25px;
+    font-size: clamp(1rem, 2vw, 1.5rem);
     font-weight: 600;
 }
 
 .aboutItem p {
-    font-size: 25px;
+    font-size: clamp(0.9rem, 1.8vw, 1.2rem);
 }
 
 .topBlur {
     position: absolute;
     width: 60vw;
     height: 50vw;
-    min-width: 350px;
-    min-width: 350px;
-    top: 1000px;
-    left: 0vw;
-    border-radius: 764px;
+    top: 110vh;
+    border-radius: 50%;
     background: rgba(49, 82, 189, 0.7);
-    filter: blur(100px);
+    filter: blur(7vw);
     z-index: 0;
 }
 
@@ -107,7 +104,7 @@
     height: 35vw;
     min-width: 350px;
     min-width: 350px;
-    top: 1100px;
+    top: 120vh;
     right: 5vw;
     border-radius: 764px;
     background: rgba(49, 82, 189, 0.7);
@@ -115,7 +112,7 @@
     z-index: 0;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 900px) {
 
     .container2 {
         background-color: transparent;
@@ -124,7 +121,7 @@
         width: 90%;
         padding-left: 3vw;
         padding-right: 3vw;
-        padding-top: 60px;
+        padding-top: 50px;
         margin-top: 45px;
     }
 
@@ -148,33 +145,11 @@
     }
 
     .topBlur {
-        position: absolute;
-        width: 775px;
-        height: 800px;
-        min-width: 350px;
-        min-width: 350px;
-        top: 1000px;
-        left: 0;
-        right: 0;
-        border-radius: 764px;
-        background: rgba(49, 82, 189, 0.7);
-        filter: blur(100px);
-        z-index: 0;
+        display: none;
     }
-    
+
     .bottomBlur {
-        position: absolute;
-        width: 775px;
-        height: 650px;
-        min-width: 350px;
-        min-width: 350px;
-        top: 1100px;
-        left: 0;
-        right: 0;
-        border-radius: 764px;
-        background: rgba(49, 82, 189, 0.7);
-        filter: blur(100px);
-        z-index: 0;
+        display: none;
     }
 }
 
