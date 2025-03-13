@@ -106,14 +106,13 @@
     height: 50vw;
     min-width: 350px;
     min-width: 250px;
-    max-width: 900;
+    max-width: 900px;
     top: 150px;
     right: -20vw;
     border-radius: 764px;
     background: rgba(49, 82, 189, 0.8);
     filter: blur(100px);
     z-index: 0;
-    overflow: hidden;
 }
 
 @media screen and (max-width: 830px) {
